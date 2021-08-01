@@ -1,0 +1,123 @@
+.background {
+	background-color: #1c1c1c;
+	width: 300px;
+	position: relative;
+}
+
+body {
+	background-color: #1c1c1c;
+}
+
+.header {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.backButton {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-color: #1c1c1c;
+	border: none;
+	z-index: 1;
+	outline: none;
+  box-shadow: none;
+}
+
+.backImage {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.settingsText {
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	color: #cdcdcd;
+	margin: 0;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+
+.shortcutText {
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	color: #cdcdcd;
+	position: relative;
+	text-align: center;
+	color: #82b4e5;
+	font-size: 11px;
+	margin: 0;
+}
+
+.mainContainer {
+	border: 2px black;
+	background-color: #222f3c;
+}
+
+.innerContainer {
+	z-index: 99;
+	position: relative;
+	height: 60px;
+	top: 10px;
+}
+
+.siteUrlText {
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	color: #cdcdcd;
+	position: relative;
+	left: 20px;
+	font-size: 15px;
+	top: 7px;
+	margin: 0;
+	width: 50%;
+}
+
+.displayBs {
+	position: absolute;
+	left: 60%;
+	top: 8px;
+  background-color: #eee;
+}
+
+textarea {
+	white-space: nowrap;
+	overflow: hidden;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	resize: none;
+	background-color: black;
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	overflow: -moz-scrollbars-horizontal;
+	position: relative;
+	width: 250px;
+	left: 20px;
+	top: 10px;
+	border-radius: 5px;
+	border-width: 1.5px;
+	border-color: #cdcdcd;
+	color: #ffffff;
+}
+
+.bottomContainer {
+	position: relative;
+	margin-bottom: 15px;
+	bottom: 3px;
+	top: 7px;
+}
+
+.saveButton {
+	width: 100px;
+	height: 32px;
+	display: block;
+	background-color: black;
+	border-radius: 8px;
+	margin: auto;
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	color: #cdcdcd;
+	text-align: center;
+	font-size: 16px;
+	border: 2px solid #222f3c;
+}

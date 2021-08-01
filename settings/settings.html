@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="settings.css">
+   </head>
+
+   <body>
+      <div class="background">
+
+         <div class="header">
+            <button class="backButton" id = "backButton">
+               <img src="/../arrows/back.png" class="backImage"></img>
+            </button> 
+            <p class="settingsText">Settings</p>
+            <p class="shortcutText">Shortcut to call BS popup: Cntl+Alt+S</p>
+         </div>
+         
+         <div class="mainContainer">
+
+            <div class="innerContainer">
+               <p class="siteUrlText">Heroku base name:</p>
+               <textarea name="baseUrl" class="baseUrl" id="baseUrl" rows="1" cols="20" placeholder="myHerokuApp"></textarea>
+            </div>
+
+            <div class="innerContainer">
+               <p class="siteUrlText">Nightscout token:</p>
+               <textarea name="tokenUrl" class="tokenUrl" id="tokenUrl" rows="1" cols="20" placeholder="xxx-xxxxxxxxx"></textarea>
+            </div>
+            
+            <div class="innerContainer">
+               <p class="siteUrlText">Display BS on icon:</p>
+               <input type="checkbox" name="displayBs" class="displayBs" id="displayBs"><br>	
+            </div>
+            
+         </div>
+         
+         <div class="bottomContainer">
+            <button class="saveButton" id="saveButton">Save</button>
+         </div>
+            
+      </div>
+      <script src="settings.js" charset="utf-8"></script>
+   </body>
+</html>

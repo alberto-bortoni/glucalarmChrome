@@ -1,0 +1,97 @@
+.background {
+	background-color: #1c1c1c;
+	width: 250px;
+	position: relative;
+}
+
+body {
+	background-color: #1c1c1c;
+}
+
+.gearButton {
+	width: 20px;
+	height: 20px;
+	background-color: #1c1c1c;
+	border: none;
+	position: absolute;
+	z-index: 1;
+	outline: none;
+  box-shadow: none;
+}
+
+.gearImage {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -1px;
+	left: -6px;
+}
+
+.mainContainer {
+	position: relative;
+}
+
+.bsTextContainer {
+	height: 70px;
+	width: 140px;
+	position: absolute;
+	right: 35%;
+}
+
+.bsText {
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #cdcdcd;
+	text-align: right;
+	margin: 0;
+}
+
+.dropTextContainer {
+	height: 70px;
+	width: 60px;
+	position: inherit;
+	left: 65%;
+	bottom: 7px;
+}
+
+.dropText {
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #cdcdcd;
+	text-align: left;
+	margin: 0;
+}
+
+.bottomContainer {
+	width: 100%;
+	height: 20px;
+	position: relative;
+	bottom: -5px;
+}
+
+.timeText {
+	font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #82b4e5;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 2px;
+}
+
+.questionButton {
+	background-color: #1c1c1c;
+	outline: none;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	z-index: 1;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 26;
+	font-weight: bold;
+	color: #ba916b;
+	border: 2px solid #ba916b;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Glucalarm Chrome Extension",
+  "version": "1.0",
+  "description": "A simple Nightschout extension for Chrome",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": ["declarativeContent", "storage","webRequest","https://*.herokuapp.com/","http://*.herokuapp.com/","notifications"],
+  "optional_permissions":["http://*/","https://*/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/nightscout16.png",
+      "32": "images/nightscout32.png",
+      "48": "images/nightscout48.png",
+      "128": "images/nightscout128.png"
+    }
+  },
+  "icons": {
+    "16": "images/nightscout16.png",
+    "32": "images/nightscout32.png",
+    "48": "images/nightscout48.png",
+    "128": "images/nightscout128.png"
+  },
+  "commands": {
+    "_execute_browser_action" : {
+      "suggested_key": {
+        "default": "Alt+Shift+S",
+        "linux": "Alt+Shift+S",
+        "windows": "Alt+Shift+S",
+        "mac": "Alt+Shift+S"
+      }
+    }
+  },    
+  "manifest_version": 2
+}
